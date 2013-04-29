@@ -1,0 +1,26 @@
+ body{
+                font-family:arial;
+  background-color:#ccc
+            }
+            #box,#box2, #box3,#box4{
+                width:60px;
+                height:60px;
+                position:absolute;
+                background:#999;
+                padding:3px;
+                border-radius:6px;
+                color:#fff;
+/*                transition: all 800ms;
+                -o-transition: all 800ms;
+                -webkit-transition: all 800ms;
+                -moz-transition: all 800ms;*/
+            }
+            .container{
+                position:relative;
+                width:100%;
+                margin:auto;
+            }
+            span{
+                cursor:pointer;
+                text-decoration:underline;
+            }
